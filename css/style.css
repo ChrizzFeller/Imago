@@ -1,0 +1,186 @@
+/*Código de Christian(index)*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;800;900&display=swap');
+
+body{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #000;
+}
+#hero {
+	background-image: url("../img/banner1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #362a53;
+	padding: 20% 200px 20% 100px;
+}
+#hero.container0{
+	text-align: top;
+	position:absolute; left:80px; top:170px;
+}
+
+.container0 h3 {
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 25px;
+    color: #362a53;
+}
+
+.container0 h1 {
+	font-weight: 400;
+	
+}
+
+.container0 h2 {
+	font-weight: 300;
+	
+}
+
+#hero .btn-dark{
+    background-color: transparent;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 7px 20px;
+    border-radius: 30px;
+}
+
+#hero .btn-dark:hover{
+    background-color: #fff;    
+}
+
+#columnas article{
+    padding: 60px 20px 40px;
+    color: #000;
+    text-align: center;
+}
+
+#columnas h3{
+	font-size: 28px;
+	padding: 10px 0px 0px 0px;
+    color:#362a53;
+    font-weight: 600;
+}
+#columnas a h3:hover{
+	color: #3f88c5;
+}
+
+#columnas h4{
+	font-size: 22px;
+    color:#362a53;
+}
+#columnas a h4:hover{
+	color: #3f88c5;
+}
+
+#columnas p{
+	font-size: 30px;
+    color:#362a53;
+}
+#columnas p:hover{
+	color: #3f88c5;
+}
+
+#hero2 {
+	background-image: url("../img/banner2.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	max-height: 800px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.container3 {
+	text-align: center;
+	position:relative;
+}
+
+.container3 h1{
+	font-weight: 700;
+	font-size: 70px;
+	letter-spacing: 1px;
+	line-height: 80px;
+}
+
+.container3 h3{
+	font-weight: 400;
+	padding-top: 15px;
+	padding-bottom: 5px;	
+}
+a:hover{
+    text-decoration: none;
+    color: #3f88c5;
+}
+
+/*Código de Christian(index)*/
+
+
+
+/*Código de Andrea(productos)*/
+
+header{
+	padding: 0px 350px 0px 0px;
+	background-color: #362a53;
+}
+.carrito{
+    margin-left: 100px;
+    margin-top: 4px;
+}
+.titulos{
+    color: #372554;
+    font-weight: 600;
+    text-align: center;
+    padding: 55px;
+}
+.listaproductos{
+    font-size: 17px;
+    color: #372554;
+    font-weight: 600;
+}
+.listitem a{
+    color: #372554;
+    padding: 4px 3px;
+    text-decoration: none;
+}
+.listitem:hover{
+    color: #fff;
+    background-color: #44bba4;
+    text-decoration: none;
+}
+.listitem:hover a{
+    color: #fff;
+}
+.descripprod{
+    color: #372554;
+    font-weight: 500;
+    text-align: center;
+}
+.descripprod h4{
+    font-weight: 600;
+    font-size: 18px;
+}
+.descripprod img{
+    padding-bottom: 20px;
+    max-width: 210px;
+}
+.descripprod p{
+    padding-bottom: 60px;
+}
+.descripprod a:hover{
+    color: #3f88c5;
+    text-decoration: none;
+}
+.container2 img {
+    width: 8%;
+    height: auto;}
+
+footer {
+	text-align: center;
+	padding: 30px 0px 10px;
+	background-color: #7a76b4;
+    color: #fff;
+}
+
+/*Código de Andrea(productos)*/

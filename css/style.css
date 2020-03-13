@@ -184,3 +184,123 @@ footer {
 }
 
 /*Código de Andrea(productos)*/
+
+/*Código de Linda (galeria)*/
+
+#title2 h1{
+	padding-bottom: 0px;
+}
+
+.subtitulos{
+    color: #44BBA4;
+	font-size: 20px;
+	font-weight: 200;
+    text-align: center;
+	padding: 55px;
+	padding-top: 0px;
+}
+
+.descripgal{
+    color: #44BBA4;
+    font-weight: 500;
+    text-align: center;
+	}
+
+.descripgal h4{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.descripgal img{
+    max-width: 210px;
+	padding-bottom: 10px;
+}
+
+.descripgal a:hover{
+    color: #3f88c5;
+    text-decoration: none;
+}
+
+.bunny{
+	padding-bottom: 100px;
+}
+/*Código de Linda (galeria)*/
+	
+/*Codigo de Ana(contactanos)*/
+ .overlay{
+	background-color: rgba(255,255,255,0.69);
+	top: 0;
+	 left: 0;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	
+}
+#top{
+	background-image: url("../img/a5copia.jpg");
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	width: 100%;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#top h3{
+	font-family: 'Montserrat';
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	margin-top: 40px;
+}
+#top .square{
+	padding-left: 41%;
+	padding-top: 4%;
+}
+#userinfo{
+	padding-top: 20px;
+	font-family: 'Lato';
+}
+.btn{
+	background-color: #00BBA3;
+	color: #fff;
+	font-family: 'Lato light';
+	font-size: 17px;
+	padding: 3px 30px;
+	border-radius: 12px;
+	margin-left: 80%;
+}
+.form-group{
+	font-family: 'Montserrat';
+	font-size: 16px;
+	color: #00BBA3;
+	margin-left: 130px;
+}
+#nombre, #contra, #correo, #date, #apellido{
+	background-color: #F7F7F7;
+	border-color: #F7F7F7;
+	color: #D9BCE4;
+}
+#nombre, #apellido{
+	width: 400px;
+}
+#correo{
+	width: 600px;
+}
+#date{
+	width: 200px;
+	text-align: center;
+}
+#contra{
+	width: 480px;
+}
+.label{
+	margin-bottom: -5px;
+	margin-top: 8px;
+}	
+	
+	
+	
+	
+	

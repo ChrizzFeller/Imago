@@ -6,43 +6,53 @@ body{
     font-size: 14px;
     color: #000;
 }
-#hero {
-	background-image: url("../img/banner1.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	color: #362a53;
-	padding: 20% 200px 20% 100px;
-}
-#hero.container0{
-	text-align: top;
-	position:absolute; left:80px; top:170px;
+
+.carousel-caption {
+	width: 100%;
+	height: 100%;
+	padding: 0 25%;
+	left: 0;
+	right: 0;
+	padding-bottom: 0;
+	display: grid;
+	align-content: center;
+	color: #fff;
 }
 
-.container0 h3 {
+.carousel-caption h3 {
 	font-weight: 300;
 	text-transform: uppercase;
 	font-size: 25px;
-    color: #362a53;
+	background-color: rgba(0,0,0,0.40);
+	margin-left: 30%;
+	margin-right: 30%;
 }
 
-.container0 h1 {
+.carousel-caption h1 {
 	font-weight: 400;
+	background-color: rgba(0,0,0,0.40);
+	margin-left: 20%;
+	margin-right: 20%;
 	
 }
 
-.container0 h2 {
+.carousel-caption h2 {
 	font-weight: 300;
+	background-color: rgba(0,0,0,0.40);
+	margin-left: 23%;
+	margin-right: 23%;
 	
 }
 
 #hero .btn-dark{
-    background-color: transparent;
+    background-color: transparent ;
     color: #000;
     text-transform: uppercase;
     font-size: 12px;
-    padding: 7px 20px;
+	padding: 7px 20px;
     border-radius: 30px;
+	margin-left: 40%;
+	margin-right: 40%;
 }
 
 #hero .btn-dark:hover{
@@ -262,7 +272,7 @@ footer {
 	padding-top: 20px;
 	font-family: 'Lato';
 }
-.btn{
+.btn-enviar{
 	background-color: #00BBA3;
 	color: #fff;
 	font-family: 'Lato light';
@@ -270,6 +280,10 @@ footer {
 	padding: 3px 30px;
 	border-radius: 12px;
 	margin-left: 80%;
+    border: none;
+}
+.btn-enviar:hover{
+    color: #372554;
 }
 .form-group{
 	font-family: 'Montserrat';
@@ -300,7 +314,255 @@ footer {
 	margin-top: 8px;
 }	
 	
+/*Codigo Andrea 2*/
+#info{
+    margin-top: 100px;
+}
+.funda{
+    padding: 0px 180px;
+}
+.funda-blanca{
+    display: grid;
+    padding: 280;
+    width: 100%;
+    height: 100%;
+}
+
+.color-funda{
+    text-align: center;
+    font-size: 18px;
+    color: #372554;
+    font-weight: bold;
+    padding-top: 13px;
+}
+a .color-producto{
+    padding-top: 15px;
+    padding-left: 150px;
+}
+.titulo-prod{
+    color: #372554;
+    font-weight: bold;
+    font-size: 40px;
+}
+.designer{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+.designer span{
+    color: #372554;
+    font-weight: 500;
+}
+.designer span:hover{
+    color: #3f88c5;
+    font-weight: 500;
+}
+p{
+    font-size: 18px;
+}
+.rating{
+    padding: 30px 0px;
+}
+.descripdesign span{
+    color: #372554;
+    font-weight: 500;
+}
+.descripdesign span:hover{
+    color: #3f88c5;
+    font-weight: 500;
+}
+.btn-cant{
+    padding-top: 20px;
+}
+.agregar-carro a{
+    margin-top: 40px;
+    background-color: #00BBA3;
+	color: #fff;
+    padding: 7px 80px;
+    border-radius: 30px;
+    border: none;
+}
+.agregar-carro a:hover{
+    margin-top: 40px;
+    background-color: #00BBA3;
+	color: #372554;
+    padding: 7px 80px;
+    border-radius: 30px;
+    border: none;
+}
+.redes{
+    margin-top: 80px;
+}
+.redes i{
+    font-size: 25px;
+	background-color: #372554;
+	color: #fff;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	border-radius: 100%;
+	transition: all 0.3s ease-in-out;
+}
+.redes i:hover{
+	background-color: #3f88c5;
+	transition: all 0.3s ease-in-out;
+}
+
+#recomendados{
+    padding-top: 90px;
+    margin-bottom: 150px;
+    margin-left: 50px;
+}
+#recomendados h2{
+    font-size: 35px;
+    font-weight: 300;
+}
+.recomendados-prod img{
+    width: 348px;
+    height: 345px;
+}
+.recomendados-prod h3{
+    color: #372554;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 0px 10px;
+    margin: 0px;
+}
+.recomendados-prod p{
+    color: #372554;
+    font-size: 18px;
+}
+.recomendados-prod h3:hover{
+    color: #3f88c5;
+}
+.recomendados-prod p:hover{
+    color: #3f88c5;
+}
+
+/*Codigo Andrea 2*/
+
+/*Codigo Arianna*/
+#fondoimagen{
+	background-image: url("../img/001 (1).jpg");
+	position: relative;
+	background-size: cover;
+	width: 100%;
+	height: 420px;
+	background-repeat: no-repeat;
 	
+}
+
+#fondoimagen h1{
+	font-family: 'Montserrat';
+	font-size: 60px;
+	color: #000000;
+	text-align: center;
+	margin-top: 40px;
 	
+	padding-top: 150px;
+}
+
+#somostexto{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#mision .misionparrafo{
+	padding-top: 250px;
+}
+
+#vision .visionparrafo{
+	padding-top: 390px;
+}
+
+#valores{
+	background-image: url("../img/004.jpg");
+	position: relative;
+	background-size: cover;
+	width: 100%;
+	height: 420px;
+	background-repeat: no-repeat;
+}
+
+#valores h2{
+font-family: 'Montserrat';
+font-size: 45px;	
+color: #FFFCFC;
+margin-top: 30px;
+padding-top: 340px;
+padding-left: 460px;
+}
+
+#valoresimago{
+ font-family: 'Montserrat';
+font-size: 15px;
+}
+
+.valores1{
+	padding-left: 10px;
+	padding-right: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.valores2{
+	padding-left: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+#vision .visionimagen{
+background-image: url("../img/003.jpg");
+	position: relative;
+	background-size: cover;
+	width: 400px;
+	height: 600px;
 	
+	background-repeat: no-repeat;	
+}
+
+#vision h2{
+font-family: 'Montserrat';
+font-size: 45px;	
+color: #FFFCFC;
+margin-top: 30px;
+padding-top: 330px;
+padding-left: 170px;	
+}
+
+#mision .misionfoto{
+	background-image: url("../img/002.jpg");
+	position: relative;
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+	padding-bottom: 30px;
+	background-repeat: no-repeat;
+}
 	
+#mision h2{
+font-family: 'Montserrat';
+font-size: 45px;	
+color: #FFFCFC;
+margin-top: 30px;
+padding-top: 230px;
+padding-left: 200px;
+}
+
+#lineagrosor{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#lineagrosor2{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.valoresespacio{
+	padding-top: 15px;
+}
+
